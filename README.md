@@ -8,7 +8,7 @@ The system enables the interaction between the feeder, and the extruder.
 
 ## Arquitecture
 
-<img src="Images/arquitecture.png"  width="400" >
+<img src="Images/arquitecture.png"  width="800" >
 
 ### The Extruder
 <img src="Images/extruder.jpg"  width="400" >
