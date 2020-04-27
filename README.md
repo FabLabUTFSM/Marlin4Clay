@@ -8,10 +8,10 @@ The system enables the interaction between the feeder, and the extruder.
 
 ## Arquitecture
 
-<img src="images/arquitecture.png"  width="400" >
+<img src="Images/arquitecture.png"  width="400" >
 
 ### The Extruder
-<img src="images/extruder.jpg"  width="400" >
+<img src="Images/extruder.jpg"  width="400" >
 
 The extruder is an [auger screw](http://unfoldfab.blogspot.com/2012/08/road-to-better-paste-extrusion-episode.html) based system wich control comes directly from the Marlin firmware, wich follows the Gcodes instructions from the slicer. 
 
