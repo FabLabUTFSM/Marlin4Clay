@@ -1,6 +1,6 @@
 # Marlin4Clay
 
-<img src="Images/print.png"  width="400" >
+<img src="Images/print.JOG"  width="400" >
 
 Marlin4Clay is an I2C enabled [Marlin](https://github.com/MarlinFirmware/Marlin) version for, and a specific firmware for extrusion systems for viscous materials 3D printers.
 
@@ -8,7 +8,7 @@ The system enables the interaction between the feeder, and the extruder.
 
 ## Arquitecture
 
-<img src="images/arquitecture.JPG"  width="400" >
+<img src="images/arquitecture.png"  width="400" >
 
 ### The Extruder
 <img src="images/extruder.jpg"  width="400" >
