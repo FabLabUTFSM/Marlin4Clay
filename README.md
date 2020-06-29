@@ -2,9 +2,13 @@
 
 <img src="Images/print.JPG"  width="400" >
 
-Marlin4Clay is an I2C enabled [Marlin](https://github.com/MarlinFirmware/Marlin) version for, and a specific firmware for extrusion systems for viscous materials 3D printers.
+This is an adaptation of [Marlin](https://github.com/MarlinFirmware/Marlin) firmware, for the use in Clay 3D Printing. 
 
-The system enables the interaction between the feeder, and the extruder. 
+The firmware enables the interaction between a [Ramps 1.4](https://reprap.org/wiki/RAMPS_1.4) Arduino Mega Shield board, and BioFeeder. 
+
+The comunication uses through [Experimental I2C](https://marlinfw.org/docs/gcode/M260.html). 
+
+BioFeeder is an Arduino Uno Shield that controls paste extrusion system, I have been using it for BioComposites, but if can be used for sodering paste, clay, etc. 
 
 ## Arquitecture
 
@@ -15,21 +19,3 @@ The system enables the interaction between the feeder, and the extruder.
 
 The extruder is an [auger screw](http://unfoldfab.blogspot.com/2012/08/road-to-better-paste-extrusion-episode.html) based system wich control comes directly from the Marlin firmware, wich follows the Gcodes instructions from the slicer. 
 
-### The Feeder
-
-[//]: <> (picture)
-
-The feeder stores the material away from the extruder, to reduse the systems inertia. It can be operated through a Stepper motor and a lead screw, or an air pump. 
-
-## BioFeeder
-
-[//]: <> (picture)
-
-BioFeeder is a DIY Arduino Uno Shield developed to provide the following functions: 
-
-- I2C Comunication
-- Stepper Motor control
-- Air pump control
-- Air pressure sensor through I2C comunication
-
-[//]: <> (### Bill of Materials)
