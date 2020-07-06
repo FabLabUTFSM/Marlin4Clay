@@ -1034,7 +1034,7 @@
 // WARNING: When motors turn off there is a chance of losing position accuracy!
 #define DISABLE_X true
 #define DISABLE_Y true
-#define DISABLE_Z true
+#define DISABLE_Z false
 
 // Warn on display about possibly reduced accuracy
 //#define DISABLE_REDUCED_ACCURACY_WARNING
